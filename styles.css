@@ -103,8 +103,8 @@ footer {
 }
 
 #hero {
-  background-color: #000;
-  color: #fff;
+  background-color: white;
+  color: black;
   padding: 100px 0;
   position: relative;
   /* Add this line */
@@ -140,8 +140,8 @@ footer {
 }
 
 #job-section {
-  background-color: #f7f7f7;
-  color: #000;
+  background-color: black;
+  color: white;
   padding-top: 5%;
 }
 
@@ -269,4 +269,32 @@ nav ul li a.btn-filled:hover {
     padding-bottom: 15%;
   }
 
+}
+
+#services-section {
+  background-color: #f9f9f9;
+  padding: 35px 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.services {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.service {
+  width: calc(33.33% - 20px);
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.service img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 20px;
 }
